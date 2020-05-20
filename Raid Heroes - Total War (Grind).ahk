@@ -20,6 +20,8 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 #MaxThreadsPerHotkey 3
 
+; Control + Left Click
+
 CoordMode, Click, Window
 ^LButton::
 Toggle := !Toggle
